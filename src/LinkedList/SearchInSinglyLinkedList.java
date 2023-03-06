@@ -8,9 +8,12 @@ public class SearchInSinglyLinkedList {
 		list.insertAtHead("jessica");
 		list.insertAtHead("rob");
 		list.insertAtHead("smith");
-		SearchInSinglyLinkedList ob = new SearchInSinglyLinkedList();
+		
 		boolean result = list.searchNode("rob");
-		System.out.print(result);
+		System.out.println(result);
+		
+		int listLength = list.length();
+		System.out.println("Length of linked list is "+ listLength);
 	}
 
 	public class Node {
@@ -45,6 +48,28 @@ public class SearchInSinglyLinkedList {
 	        currentNode = currentNode.nextNode;
 		}
 	    return false; //value not found
+	}
+	
+	//Check if list is empty or not
+	public boolean isEmpty() {
+		if(this.headNode == null)
+			return true;
+		else
+			return false;	
+	}
+	
+	// Find the length of a Linked List
+	public int length() {
+		int count = 0;
+	    if(isEmpty()) {
+	    	return 0;
+	    }
+	    Node currentNode = this.headNode;
+	    while(currentNode != null) {
+	    	currentNode = currentNode.nextNode;
+	        count++;
+	    } 
+	    return count;
 	}
 	
 }
