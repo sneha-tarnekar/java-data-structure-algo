@@ -1,9 +1,9 @@
 package LinkedList;
 
-public class SearchInSinglyLinkedList {
+public class SinglyLinkedList<T> {
 	
 	public static void main(String[] args) {
-		SearchInSinglyLinkedList list = new SearchInSinglyLinkedList();
+		SinglyLinkedList<String> list = new SinglyLinkedList();
 		list.insertAtHead("john");
 		list.insertAtHead("jessica");
 		list.insertAtHead("rob");
@@ -17,20 +17,20 @@ public class SearchInSinglyLinkedList {
 	}
 
 	public class Node {
-		public String data;
+		public T data;
 	    public Node nextNode;
 	}
 
 	public Node headNode; //head node of the linked list
 	public int size;      //size of the linked list
 
-	public SearchInSinglyLinkedList() {
+	public SinglyLinkedList() {
 		headNode = null;
 	    size = 0;
 	}
 	    
 	//Insertion at head in Singly Linked List	
-	public void insertAtHead(String data) {
+	public void insertAtHead(T data) {
 		Node newNode = new Node();
 	    newNode.data = data;
 	    newNode.nextNode = headNode;
