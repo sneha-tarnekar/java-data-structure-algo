@@ -72,4 +72,13 @@ public class SinglyLinkedList<T> {
 	    return count;
 	}
 	
+	public void printList() {
+		Node currentNode = this.headNode;
+	    while(currentNode != null) {
+	    	System.out.print(currentNode.data + "->");
+	    	currentNode = currentNode.nextNode;
+	    }
+	    System.out.println(currentNode);
+	}
+	
 }
