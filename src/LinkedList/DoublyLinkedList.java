@@ -1,7 +1,5 @@
 package LinkedList;
 
-import LinkedList.SinglyLinkedList.Node;
-
 public class DoublyLinkedList<T> {
 
 	// Node inner class for DLL
@@ -53,6 +51,29 @@ public class DoublyLinkedList<T> {
 			count++;
 		}
 		return count;
+	}
+
+	public void insertAtHead(T data) {
+		// create node and put in the data
+		Node newNode = new Node();
+		newNode.data = data;
+		// Make next of new node as head and previous as NULL
+		newNode.nextNode = this.headNode;
+		newNode.prevNode = null;
+		// Change previous of head node to new node
+		if (headNode != null)
+			headNode.prevNode = newNode;
+		this.headNode = newNode;
+		size++;
+	}
+
+	// Returns last node
+	public Node getTailNode() {
+		Node tail = this.headNode;
+		while (tail.nextNode != null) {
+			tail = tail.nextNode;
+		}
+		return tail;
 	}
 
 }
