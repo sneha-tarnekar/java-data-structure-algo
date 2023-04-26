@@ -1,22 +1,17 @@
 package Stack;
 
-import LinkedList.SinglyLinkedList.Node;
-
 public class StackUsingLinkedList {
 	
 	public static void main(String[] args) {
 		StackUsingLinkedList stack = new StackUsingLinkedList();
 		stack.push(5);
 		stack.push(3);
+		stack.push(7);
+		stack.push(1);
 		while(!stack.isEmpty()) {
 			System.out.println(stack.peak());
 			stack.pop();
 		}		
-	}
-
-	class Node {
-		public int data;
-		public Node nextNode;
 	}
 
 	Node head;
@@ -60,4 +55,9 @@ public class StackUsingLinkedList {
 		return size;
 	}
 
+}
+
+class Node {
+	public int data;
+	public Node nextNode;
 }
