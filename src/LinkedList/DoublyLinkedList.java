@@ -10,15 +10,17 @@ public class DoublyLinkedList<T> {
 	}
 
 	public Node headNode;
+	public Node tailNode;
 	public int size;
 
 	public DoublyLinkedList() {
 		this.headNode = null;
+		this.tailNode = null;
 	}
 
 	// checks if the list is empty
 	public boolean isEmpty() {
-		if (headNode == null)
+		if (headNode == null && tailNode == null)
 			return true; // is empty
 		return false; // is not empty
 	}
@@ -63,7 +65,23 @@ public class DoublyLinkedList<T> {
 		// Change previous of head node to new node
 		if (headNode != null)
 			headNode.prevNode = newNode;
+		else
+			tailNode = newNode;
 		this.headNode = newNode;
+		size++;
+	}
+	
+	public void insertAtTail(T data) {
+		if(isEmpty()) {
+			insertAtHead(data);
+			return;
+		}
+		Node newNode = new Node();
+		newNode.data = data;
+		newNode.nextNode = null;
+		newNode.prevNode = tailNode;
+		tailNode.nextNode = newNode;
+		tailNode = newNode;
 		size++;
 	}
 
