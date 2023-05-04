@@ -11,8 +11,9 @@ public class SortStackValues {
         stack.push(12);
         stack.push(60);
         stack.push(23);
-        sortStackUsingTempStack(stack);
-        System.out.println("After : ");
+        sortStackUsingTempStack(stack); // Sort Stack Using a Temporary Stack
+        sortStackWithRecursion(stack);	// Sort Stack using Recursive Method
+        System.out.println("Sorted stack : ");
         while(!stack.isEmpty()){
 	        System.out.println(stack.pop());
 	    }	
@@ -37,4 +38,23 @@ public class SortStackValues {
 			stack.push(newStack.pop());
 		}
     }
+	
+	public static Stack<Integer> sortStackWithRecursion(Stack<Integer> stack) {
+		if(!stack.isEmpty()) {
+			int value = stack.pop();
+			sortStackWithRecursion(stack);
+			insert(stack, value);
+		}
+		return stack;
+	}
+	
+	public static void insert(Stack<Integer> stack, int value) {
+		if(stack.isEmpty() || value < stack.top()) {
+			stack.push(value);
+		} else {
+			int temp = stack.pop();
+			insert(stack, value);
+			stack.push(temp);
+		}
+	}
 }
