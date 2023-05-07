@@ -12,7 +12,7 @@ public class QueueUsingStack<V> {
 	}
 	
 	public boolean isEmpty() {
-		return stack1.isEmpty();
+		return stack1.isEmpty() && stack2.isEmpty();
 	}
 	
 	public void enqueue(V data) {
@@ -20,18 +20,17 @@ public class QueueUsingStack<V> {
 	}
 	
 	public V dequeue() {
-		// put all stack1 elements into stack2
-		while(!stack1.isEmpty()) {
-			stack2.push(stack1.pop());
+		if(isEmpty()) {
+			return null;
+		} else if(stack2.isEmpty()) {
+			// put all stack1 elements into stack2
+			while(!stack1.isEmpty()) {
+				stack2.push(stack1.pop());
+			}
+			return stack2.pop();
+		} else {
+			return stack2.pop();
 		}
-		
-		// pop from stack2 (which will be the last element of stack 1)
-		V result = stack2.pop();
-		// put all elements back in stack1
-		while(!stack2.isEmpty()) {
-			stack1.push(stack2.pop());
-		}
-		return result;
 	}
 
 	public static void main(String[] args) {		
