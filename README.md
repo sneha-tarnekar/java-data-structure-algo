@@ -43,3 +43,7 @@
 #### 1. [Implement Queue using Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingArray.java)
 #### 2. [Implement Queue using Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingLinkedList.java)
 #### 3. [Generate Binary Numbers from 1 to n using Queue](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/BinaryNumberUsingQueue.java)
+
+## Graph
+#### 1. [Implement Graph using Adjacency List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/GraphUsingAdjacencyList.java)
+#### 2. [Implement Graph using Adjacency Matrix](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/GraphUsingAdjacencyMatrix.java)
