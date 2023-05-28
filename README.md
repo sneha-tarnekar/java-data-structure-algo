@@ -2,15 +2,17 @@
 
 ## Array
 #### 1. [Find two numbers that add up to "n"](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/CheckSumOfTwoNumbers.java)
-#### 2. [Find first non repeating integer in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FirstNonRepeatingInteger.java)
-#### 3. [Merge two sorted arrays](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/MergeSortedArrays.java)
-#### 4. [Find Minimum Value in Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/MininumElementOfAnArray.java)
-#### 5. [Array of products of all elements except itself](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/ProductOfAllElements.java)
-#### 6. [Rearrange Sorted Array in Max/Min Form](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RearrangeInMaxMin.java)
-#### 7. [Re-arrange positive and negative values in array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RearrangePositiveNagativeValues.java)
+#### 2. [Find duplicate element in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FindDuplicateElement.java)
+#### 3. [Find first non repeating integer in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FirstNonRepeatingInteger.java)
+#### 4. [Merge two sorted arrays](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/MergeSortedArrays.java)
+#### 5. [Find Minimum Value in Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/MininumElementOfAnArray.java)
+#### 6. [Array of products of all elements except itself](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/ProductOfAllElements.java)
+#### 7. [Rearrange Sorted Array in Max/Min Form](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RearrangeInMaxMin.java)
+#### 8. [Re-arrange positive and negative values in array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RearrangePositiveNagativeValues.java)
 #### 9. [Remove even elements from an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RemoveEvenElements.java)
 #### 10. [Right rotate the array by one index](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RightRotateByOneIndex.java)
 #### 11. [Find second maximum value in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/SecondMaximumValue.java)
+#### 12. [Swap every pair of alternate elements in the array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/SwapAlternateElements.java)
 
 ## Linked List
 #### 1. [Basic operations of Singly Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/SinglyLinkedList.java)
@@ -42,7 +44,8 @@
 ## Queue
 #### 1. [Implement Queue using Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingArray.java)
 #### 2. [Implement Queue using Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingLinkedList.java)
-#### 3. [Generate Binary Numbers from 1 to n using Queue](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/BinaryNumberUsingQueue.java)
+#### 3. [Implement Queue using Stack](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingStack.java)
+#### 4. [Generate Binary Numbers from 1 to n using Queue](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/BinaryNumberUsingQueue.java)
 
 ## Graph
 #### 1. [Implement Graph using Adjacency List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/GraphUsingAdjacencyList.java)
