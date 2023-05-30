@@ -14,14 +14,15 @@ public class BreadthFirstSearch {
 
         /**
          * Input:
-         0
-         /   \
-         /     \
-         1       6
-         / \     / \
-         2   3   7   8
-         / \   \
-         4   5   9
+                                0
+                              /   \
+                             /     \
+                            1       6
+                           / \     / \
+                          2   3   7   8
+                         / \   \
+                        4   5   9
+
          * Output should be: 0 1 6 2 3 7 8 4 5 9
          **/
 
@@ -55,7 +56,7 @@ public class BreadthFirstSearch {
         graph.addEdge(6, 7);
         graph.addEdge(6, 8);
         graph.addEdge(7, 9);
-        System.out.println("\nBFS Traversal with GraphUsingAdjacencyList: " + bfs(graph));
+        System.out.println("\nBFS traversal with GraphUsingAdjacencyList: " + bfs(graph));
 
     }
 
@@ -90,7 +91,7 @@ public class BreadthFirstSearch {
 
         while (!queue.isEmpty()) {
             int currentNode = queue.poll();
-            result = result + currentNode;
+            result = result + currentNode + " ";
 
             DoublyLinkedList<java.lang.Integer>.Node temp = null;
 
