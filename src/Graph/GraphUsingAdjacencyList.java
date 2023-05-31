@@ -19,7 +19,7 @@ public class GraphUsingAdjacencyList {
 	public void addEdge(int source, int destination) {
 		 if (source < vertices && destination < vertices) {
 			 this.adjList[source].insertAtTail(destination);
-			 this.adjList[destination].insertAtTail(destination); 	// For undirected graph 
+			 this.adjList[destination].insertAtTail(source); 	// For undirected graph
 		 }
 	}
 
