@@ -3,7 +3,20 @@ package Graph;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-
+/*
+ * Given an undirected graph with V vertices.
+ * We say two vertices u and v belong to a single province if there is a path from u to v or v to u.
+ * The task is to find the number of provinces.
+ * (A province is a group of directly or indirectly connected cities and no other cities outside of the group.)
+ *
+ * Input:
+ *        0          3           5
+ *       / \         |          / \
+ *      1   2        4         6   7
+ *
+ * Output: 3
+ *
+ * */
 public class NumberOfProvinces {
 
     public static void dfs(int startNode, ArrayList<ArrayList<Integer>> adjList, boolean[] visitedArray) {
