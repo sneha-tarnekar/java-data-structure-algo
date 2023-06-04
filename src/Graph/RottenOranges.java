@@ -5,31 +5,14 @@ import java.util.Queue;
 
 public class RottenOranges {
 
-    public static int orangesRotting(int[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
-
+    public static int orangesRotting(int[][] input) {
         Queue<Pair> queue = new LinkedList();
-        int[][] visitedArr = new int[n][m];
-        int countFresh = 0;
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
-                if(grid[i][j]==2) {
-                    queue.add(new Pair(i, j, 0));
-                    visitedArr[i][j] = 2;
-                } else {
-                    visitedArr[i][j] = 0;
-                }
-                if (grid[i][j]==1) {
-                    countFresh++;
-                }
-            }
-        }
-
-        int time = 0;
-        int count = 0;
+        int[][] visitedArr = new int[input.length][input[0].length];
+        int numberOfFreshOranges = countTotalFreshOranges(input, queue, visitedArr);
         int[] deltaRow = {-1, 0, +1, 0};
         int[] deltaCol = {0, +1, 0, -1};
+        int time = 0;
+        int numberOfRottenOranges = 0;
 
         while (!queue.isEmpty()) {
             int row = queue.peek().row;
@@ -40,25 +23,45 @@ public class RottenOranges {
             for(int i=0; i<4; i++) {
                 int currentRow = row + deltaRow[i];
                 int currentCol = col + deltaCol[i];
-
-                if(currentRow >= 0 && currentRow < n &&
-                        currentCol >= 0 && currentCol < m &&
-                        visitedArr[currentRow][currentCol] == 0 &&
-                        grid[currentRow][currentCol] == 1) {
+                if(isFreshAndNotVisitedOrange(currentRow, currentCol, visitedArr, input)) {
                     queue.add(new Pair(currentRow, currentCol, time + 1));
                     visitedArr[currentRow][currentCol] = 2;
-                    count++;
+                    numberOfRottenOranges++;
                 }
             }
         }
 
-        if(count != countFresh) return -1;
+        if(numberOfRottenOranges != numberOfFreshOranges)
+            return -1;
+
         return time;
+    }
+
+    public static boolean isFreshAndNotVisitedOrange(int currentRow, int currentCol, int[][] visitedArr, int[][] input) {
+        return currentRow >= 0 && currentRow < input.length &&
+                currentCol >= 0 && currentCol < input[0].length &&
+                visitedArr[currentRow][currentCol] == 0 &&
+                input[currentRow][currentCol] == 1;
+    }
+
+    public static int countTotalFreshOranges(int[][] input, Queue<Pair> queue, int[][] visitedArr) {
+        int countFresh = 0;
+        for(int i=0; i<input.length; i++) {
+            for(int j=0; j<input[i].length; j++) {
+                if(input[i][j]==2) {
+                    queue.add(new Pair(i, j, 0));
+                    visitedArr[i][j] = 2;
+                } else {
+                    visitedArr[i][j] = 0;
+                }
+                if (input[i][j]==1) countFresh++;
+            }
+        }
+        return countFresh;
     }
 
     public static void main(String[] args) {
         int[][] input = new int[][]{{2,0,2},{1,1,0},{0,1,2}};
-
         int result = orangesRotting(input);
         System.out.println("Minimum time required to rot all oranges: "+result);
     }
