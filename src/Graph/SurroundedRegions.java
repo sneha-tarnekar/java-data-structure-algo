@@ -1,7 +1,26 @@
 package Graph;
 
+/*
+ *  Given a matrix mat of size N x M where every element is either ‘O’ or ‘X’.
+ *  Replace all ‘O’ with ‘X’ that is surrounded by ‘X’.
+ *  An ‘O’ (or a set of ‘O’) is considered to be surrounded by ‘X’
+ *  if there are ‘X’ at locations just below, just above just left, and just right of it.
+ *
+ *  Input:  X X X X
+            X O X X
+            X O O X
+            X O X X
+            X X O O
+
+ *  Output: X X X X
+            X X X X
+            X X X X
+            X X X X
+            X X O O
+ */
+
 public class SurroundedRegions {
-    public void fill(char[][] board) {
+    public static void fill(char[][] board) {
         int n = board.length;
         int m = board[0].length;
         boolean[][] visitedArr = new boolean[n][m];
@@ -50,6 +69,24 @@ public class SurroundedRegions {
             if(nrow>=0 && nrow<board.length && ncol>=0 && ncol<board[0].length && !visitedArr[nrow][ncol] && board[nrow][ncol]=='O') {
                 dfs(nrow, ncol, board, visitedArr, deltaRow, deltaCol);
             }
+        }
+    }
+
+    public static void main(String[] args) {
+        char[][] input = {
+                {'X', 'X', 'X', 'X'},
+                {'X', 'O', 'X', 'X'},
+                {'X', 'O', 'O', 'X'},
+                {'X', 'O', 'X', 'X'},
+                {'X', 'X', 'O', 'O'}};
+
+        fill(input);
+
+        for(int i=0; i< input.length; i++) {
+            for(int j=0; j<input[0].length; j++) {
+                System.out.print(input[i][j]+ " ");
+            }
+            System.out.println();
         }
     }
 }
