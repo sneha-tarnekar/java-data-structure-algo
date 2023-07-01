@@ -13,22 +13,17 @@
 #### 10. [Right rotate the array by one index](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RightRotateByOneIndex.java)
 #### 11. [Find second maximum value in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/SecondMaximumValue.java)
 #### 12. [Swap every pair of alternate elements in the array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/SwapAlternateElements.java)
+#### 13. [Adding ones and print the array after k updates are done](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/AddingOnes.java)
+#### 14. [Find Duplicate Elements from an array in linear time](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FindDuplicateElementsInLinearTime.java)
+#### 15. [Sort an array of 0s, 1s and 2s](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/SortArrayOf_012.java)
+#### 16. [Lemonade change problem](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/LemonadeChange.java)
+#### 17. [Check if array is sorted and rotated](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/IsSortedAndRotatedArray.java)
+#### 18. [Find maximum repeated element in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FindMaximumRepeatedElement.java)
+#### 19. [Print all unique elements from an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FindAllUniqueElements.java)
 
 ## Linked List
-#### 1. [Basic operations of Singly Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/SinglyLinkedList.java)
-###### 1. Insertion at head in Singly Linked List
-###### 2. Search in Singly Linked List
-###### 3. Print linked list elements
-###### 4. Check if list is empty or not
-###### 5. Find the length of a Linked List
-#### 2. [Basic operations of Doubly Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/DoublyLinkedList.java)
-###### 1. Insertion at head in Doubly Linked List
-###### 2. Get tail node from Doubly Linked List
-###### 3. Print linked list elements
-###### 4. Check if list is empty or not
-###### 5. Find the length of a Linked List
-###### 6. Delete at Head in Doubly Linked List
-###### 7. Delete by Value in Doubly Linked List
+#### 1. [Implement Singly Linked List & perform Basic operations](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/SinglyLinkedList.java)
+#### 2. [Implement Doubly Linked List & perform Basic operations](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/DoublyLinkedList.java)
 #### 3. [Remove Duplicates from a Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/RemoveDuplicates.java)
 #### 4. [Union of lists](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/UnionOfLinkedList.java)
 #### 5. [Intersection of Lists](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/IntersectionOfLinkedList.java)
