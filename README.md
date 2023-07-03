@@ -1,4 +1,4 @@
-# java-data-structure-algo
+# Data structure and Algorithms - Java
 
 ## Array
 #### 1. [Find two numbers that add up to "n"](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/CheckSumOfTwoNumbers.java)
@@ -35,6 +35,7 @@
 #### 1. [Implement Stack using Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/Stack.java)
 #### 2. [Implement Stack using Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/StackUsingLinkedList.java)
 #### 3. [Sort the values in a Stack](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/SortStackValues.java)
+#### 4. [Check whether the pairs and the orders of {,},(,),[,] are correct in expression](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/ParenthesisChecker.java)
 
 ## Queue
 #### 1. [Implement Queue using Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingArray.java)
@@ -45,3 +46,14 @@
 ## Graph
 #### 1. [Implement Graph using Adjacency List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/GraphUsingAdjacencyList.java)
 #### 2. [Implement Graph using Adjacency Matrix](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/GraphUsingAdjacencyMatrix.java)
+#### 3. [Breadth First Search](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/BreadthFirstSearch.java)
+#### 4. [Depth First Search](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/DepthFirstSearch.java)
+#### 5. [Cycle Detection in Undirected Graph using BFS](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/CycleDetectionInUndirectedGraphUsingBfs.java)
+#### 6. [Cycle Detection in undirected graph using DFS](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/CycleDetectionInUndirectedGraphUsingDfs.java)
+#### 7. [Find the distance of the nearest 1 in the grid for each cell](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/DistanceOfNearestCellHaving1.java)
+#### 8. [Flood Fill algorithm to replace the color of all the aforementioned pixels with new color](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/FloodFill.java)
+#### 9. [Find the number of enclaves (land cells)](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/NumberOfEnclaves.java)
+#### 10. [find the number of provinces (A province is a group of directly or indirectly connected cities and no other cities outside of the group)](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/NumberOfProvinces.java)
+#### 11. [Calculate minimum time required to rot all oranges](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/RottenOranges.java)
+#### 12. [Surrounded Regions Problem (Replace all ‘O’ with ‘X’ that is surrounded by ‘X’)](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/SurroundedRegions.java)
+#### 13. [Find the length of the shortest transformation sequence from startWord to targetWord](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/WorldLadderLength.java)
