@@ -21,6 +21,7 @@
 #### 18. [Find maximum repeated element in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FindMaximumRepeatedElement.java)
 #### 19. [Print all unique elements from an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FindAllUniqueElements.java)
 #### 20. [Check if two arrays are equal or not](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/CheckTwoArraysEqualOrNot.java)
+#### 21. [Find missing number in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/MissingNumber.java)
 
 ## Linked List
 #### 1. [Implement Singly Linked List & perform Basic operations](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/SinglyLinkedList.java)
