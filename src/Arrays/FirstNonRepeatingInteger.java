@@ -20,7 +20,7 @@ public class FirstNonRepeatingInteger {
 	    		}
 	    	}
 	      
-	    	if(isRepeated == false) {
+	    	if(!isRepeated) {
 	    	  return arr[i];
 	    	} else {
 	    	  isRepeated = false;
