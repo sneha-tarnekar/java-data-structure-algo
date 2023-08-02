@@ -22,6 +22,7 @@
 #### 19. [Print all unique elements from an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/FindAllUniqueElements.java)
 #### 20. [Check if two arrays are equal or not](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/CheckTwoArraysEqualOrNot.java)
 #### 21. [Find missing number in an array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/MissingNumber.java)
+#### 22. [Remove duplicate elements from sorted array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Arrays/RemoveDuplicatesFromSortedArray.java)
 
 ## Linked List
 #### 1. [Implement Singly Linked List & perform Basic operations](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/LinkedList/SinglyLinkedList.java)
@@ -59,3 +60,15 @@
 #### 11. [Calculate minimum time required to rot all oranges](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/RottenOranges.java)
 #### 12. [Surrounded Regions Problem (Replace all ‘O’ with ‘X’ that is surrounded by ‘X’)](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/SurroundedRegions.java)
 #### 13. [Find the length of the shortest transformation sequence from startWord to targetWord](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/WorldLadderLength.java)
+
+## Recursion
+#### 1. [Check if array is sorted or not using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/CheckSortedArray.java)
+#### 2. [Find factorial of a given number using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/FindFactorial.java)
+#### 3. [Find power of given number using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/FindPower.java)
+#### 4. [Print numbers in ascending and descending using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/PrintNumbers.java)
+#### 5. [Find sum of array elements using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/SumOfArrayElements.java)
+
+## Sorting Algorithms
+#### 1. [Selection Sort](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/SortingAlgorithms/SelectionSort.java)
+#### 2. [Insertion Sort](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/SortingAlgorithms/InsertionSort.java)
+#### 3. [Bubble Sort](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/SortingAlgorithms/BubbleSort.java)
