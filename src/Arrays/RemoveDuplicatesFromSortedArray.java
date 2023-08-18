@@ -18,7 +18,6 @@ public class RemoveDuplicatesFromSortedArray {
 
         int k = set.size();
 
-        A[0] = set.stream().findFirst().get();
         int j = 0;
         for (int ele : set) {
             A[j++] = ele;
