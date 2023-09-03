@@ -37,15 +37,16 @@
 ## Stack
 #### 1. [Implement Stack using Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/Stack.java)
 #### 2. [Implement Stack using Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/StackUsingLinkedList.java)
-#### 3. [Sort the values in a Stack](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/SortStackValues.java)
-#### 4. [Check whether the pairs and the orders of {,},(,),[,] are correct in expression](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/ParenthesisChecker.java)
+#### 3. [Implement Stack using Queue](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Stack/StackUsingQueue.java)
+#### 4. [Sort the values in a Stack](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/SortStackValues.java)
+#### 5. [Check whether the pairs and the orders of {,},(,),[,] are correct in expression](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Stack/ParenthesisChecker.java)
 
 ## Queue
 #### 1. [Implement Queue using Array](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingArray.java)
 #### 2. [Implement Queue using Linked List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingLinkedList.java)
 #### 3. [Implement Queue using Stack](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/QueueUsingStack.java)
 #### 4. [Generate Binary Numbers from 1 to n using Queue](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Queue/BinaryNumberUsingQueue.java)
-
+#### 5. [Sliding Window Maximum](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Queue/SlidingWindowMaximum.java)
 ## Graph
 #### 1. [Implement Graph using Adjacency List](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/GraphUsingAdjacencyList.java)
 #### 2. [Implement Graph using Adjacency Matrix](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/GraphUsingAdjacencyMatrix.java)
@@ -61,12 +62,18 @@
 #### 12. [Surrounded Regions Problem (Replace all ‘O’ with ‘X’ that is surrounded by ‘X’)](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/SurroundedRegions.java)
 #### 13. [Find the length of the shortest transformation sequence from startWord to targetWord](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Graph/WorldLadderLength.java)
 
+## String
+#### 1. [Check if a given string can be constructed by taking a substring of it and appending multiple copies of the substring together](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/String/CheckRepeatedSubstring.java)
+
 ## Recursion
 #### 1. [Check if an array is sorted or not using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/CheckSortedArray.java)
 #### 2. [Find the factorial of a given number using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/FindFactorial.java)
 #### 3. [Find the power of a given number using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/FindPower.java)
 #### 4. [Print numbers in ascending and descending using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/PrintNumbers.java)
 #### 5. [Find the sum of array elements using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/SumOfArrayElements.java)
+#### 6. [Find Nth Fibonacci number using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/FindNthFibonacciNumber.java)
+#### 7. [Print Fibonacci series for given number](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/PrintFibonacciSeries.java)
+#### 8. [Remove X from a given string using recursion](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/Recursion/RemoveX.java)
 
 ## Sorting Algorithms
 #### 1. [Selection Sort](https://github.com/Sneha2405/java-data-structure-algo/blob/main/src/SortingAlgorithms/SelectionSort.java)
