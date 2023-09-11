@@ -1,5 +1,8 @@
 package Problems;
 
+/*  Given an array of distinct integers nums and a target integer target,
+    return the number of possible combinations that add up to target.
+ */
 public class CombinationSum {
 
     public static int combinationSum4(int[] nums, int target) {
