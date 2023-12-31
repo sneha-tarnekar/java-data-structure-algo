@@ -8,22 +8,22 @@ import java.util.Stack;
  */
 public class BackspaceStringCompare {
 
-    public boolean backspaceCompare(String s, String t) {
-        java.util.Stack<Character> str1=new java.util.Stack<>();
-        java.util.Stack<Character> str2=new Stack<>();
+    public static boolean backspaceCompare(String s, String t) {
+        java.util.Stack<Character> str1 = new java.util.Stack<>();
+        java.util.Stack<Character> str2 = new Stack<>();
 
-        for(char c:s.toCharArray()){
-            if(c == '#') {
-                if( !str1.isEmpty())
+        for (char c : s.toCharArray()) {
+            if (c == '#') {
+                if (!str1.isEmpty())
                     str1.pop();
             } else {
                 str1.push(c);
             }
         }
 
-        for(char c:t.toCharArray()){
-            if(c == '#') {
-                if( !str2.isEmpty())
+        for (char c : t.toCharArray()) {
+            if (c == '#') {
+                if (!str2.isEmpty())
                     str2.pop();
             } else {
                 str2.push(c);
@@ -31,6 +31,13 @@ public class BackspaceStringCompare {
         }
 
         return str1.equals(str2);
+    }
+
+    public static void main(String[] args) {
+        String s = "ab#c";
+        String t = "ad#c";
+        boolean output = backspaceCompare(s, t);
+        System.out.println("Output : " + output);
     }
 
 }
