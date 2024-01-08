@@ -25,6 +25,7 @@
 #### 22. [Remove duplicate elements from sorted array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/RemoveDuplicatesFromSortedArray.java)
 #### 23. [Find the index where target would be if it were inserted in order](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/SearchInsertPosition.java)
 #### 24. [Find Duplicate Number from an array in linear time](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/FindDuplicateNumberInLinearTime.java)
+#### 25. [Remove all occurrences of val in given array in-place](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/RemoveGivenElement.java)
 
 ## Linked List
 #### 1. [Implement Singly Linked List & perform Basic operations](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/LinkedList/SinglyLinkedList.java)
