@@ -40,4 +40,14 @@ public class CountNumbersWithEvenDigits {
         return digit;
     }
 
+    // Approach 2: Count digit with Math.log10(num)
+    private int countDigit2(int num) {
+        if (num < 0) {
+            num = num * -1;
+        }
+
+        int digit = (int)Math.log10(num) + 1;
+        return digit;
+    }
+
 }
