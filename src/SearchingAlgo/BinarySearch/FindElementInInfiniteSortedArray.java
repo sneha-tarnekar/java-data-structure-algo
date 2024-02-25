@@ -1,4 +1,4 @@
-package Arrays;
+package SearchingAlgo.BinarySearch;
 
 public class FindElementInInfiniteSortedArray {
 
