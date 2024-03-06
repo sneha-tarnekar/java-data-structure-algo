@@ -29,9 +29,10 @@ public class FindPivotInSortedRotatedArray {
                 return mid - 1;
             }
 
+            // if start is greater than equal to mid then search in first half
             if (arr[start] >= arr[mid]) {
                 end = mid - 1;
-            } else {
+            } else {    // else search in second half
                 start = mid + 1;
             }
 
