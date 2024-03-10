@@ -92,6 +92,10 @@
 #### 7. [Print Fibonacci series for given number](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Recursion/PrintFibonacciSeries.java)
 #### 8. [Remove X from a given string using recursion](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Recursion/RemoveX.java)
 
+## Searching Algorithms
+#### 1. [Linear Search](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/LinearSearch.java)
+#### 2. [Binary Search](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch)
+
 ## Sorting Algorithms
 #### 1. [Selection Sort](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SortingAlgorithms/SelectionSort.java)
 #### 2. [Insertion Sort](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SortingAlgorithms/InsertionSort.java)
