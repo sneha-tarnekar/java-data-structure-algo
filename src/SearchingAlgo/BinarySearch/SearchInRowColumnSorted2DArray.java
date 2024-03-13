@@ -24,13 +24,12 @@ public class SearchInRowColumnSorted2DArray {
         int col = arr.length - 1;
 
         while (row <= arr.length - 1 && col >= 0) {
-            int mid = arr[row][col];
 
-            if (mid == target) {
+            if (arr[row][col] == target) {
                 return new int[]{row, col};
             }
 
-            if (target > mid) {
+            if (target > arr[row][col]) {
                 row++;
             } else {
                 col--;
