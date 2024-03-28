@@ -2,18 +2,19 @@ package SearchingAlgo.BinarySearch;
 
 import java.util.Arrays;
 
+// https://leetcode.com/problems/search-a-2d-matrix/description/
 public class SearchInSorted2DArray {
 
     public static void main(String[] args) {
 
-        // Array sorted row and column wise
-        int[][] matrix = {
+        int[][] input1 = {
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 11}
         };
 
-        int target = 7;
+        int[][] matrix = {{1}, {3}};
+        int target = 0;
 
         int[] output = search(matrix, target);
         System.out.println("Output : " + Arrays.toString(output));
@@ -56,22 +57,22 @@ public class SearchInSorted2DArray {
         // Else consider four parts and
 
         // search in first half
-        if (target <= matrix[rStart][cMid - 1]) {
+        if (cMid > 0 && target <= matrix[rStart][cMid - 1]) {
             return binarySearch(matrix, rStart, 0, cMid - 1, target);
         }
 
         // search in second half
-        if (target >= matrix[rStart][cMid + 1] && target <= matrix[rStart][cols - 1]) {
+        if (cMid < cols - 1 && target >= matrix[rStart][cMid + 1] && target <= matrix[rStart][cols - 1]) {
             return binarySearch(matrix, rStart, cMid + 1, cols - 1, target);
         }
 
         // search in third half
-        if (target <= matrix[rEnd][cMid - 1]) {
+        if (cMid > 0 && target <= matrix[rEnd][cMid - 1]) {
             return binarySearch(matrix, rEnd, 0, cMid - 1, target);
         }
 
         // search in fourth half
-        if (target >= matrix[rEnd][cMid + 1]) {
+        if (cMid < cols - 1 && target >= matrix[rEnd][cMid + 1]) {
             return binarySearch(matrix, rEnd, cMid + 1, cols - 1, target);
         }
 
