@@ -3,12 +3,17 @@ package String;
 public class CheckPalidromeWithTwoPointer {
 
     public static void main(String[] args) {
-        String input = "abcdedcba";
-        boolean output = isPalindrome(input);
+        String input1 = "abcdedcba";
+        String input2 = null;
+        boolean output = isPalindrome(input1);
         System.out.println(output);
     }
 
     public static boolean isPalindrome(String str) {
+
+        if (str == null || str.length() == 0) {
+            return true;
+        }
         str = str.toLowerCase();
 
         for (int i = 0; i < str.length() / 2; i++) {
