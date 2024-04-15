@@ -20,10 +20,7 @@ public class Pattern8 {
             for (int j = i; j < n; j++) {
                 System.out.print("  ");
             }
-            for (int j = 0; j <= i; j++) {
-                System.out.print("* ");
-            }
-            for (int j = 0; j < i; j++) {
+            for (int j = 0; j <= i * 2; j++) {
                 System.out.print("* ");
             }
             System.out.println();
