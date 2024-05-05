@@ -11,6 +11,7 @@ public class TimeConversion {
         System.out.println("Output : " + output);
     }
 
+    // Approach 1
     public static String timeConversion(String s) {
 
         if (s.startsWith("12:") && s.endsWith("AM")) {
@@ -32,6 +33,26 @@ public class TimeConversion {
 
         s = s.replace("AM", "");
         return s;
+    }
+
+    // Approach 2
+    public static String timeConversion2(String s) {
+
+        String period = s.substring(s.length() - 2);
+        String time = s.substring(0, s.length() - 2);
+        String[] parts = time.split(":");
+        int hour = Integer.parseInt(parts[0]);
+        int minute = Integer.parseInt(parts[1]);
+        int second = Integer.parseInt(parts[2]);
+
+        if (period.equals("AM") && hour == 12) {
+            hour = 0;
+        } else if (period.equals("PM") && hour != 12) {
+            hour += 12;
+        }
+
+        return String.format("%02d:%02d:%02d", hour, minute, second);
+
     }
 
 }
