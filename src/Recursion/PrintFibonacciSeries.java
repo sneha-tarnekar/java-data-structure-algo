@@ -20,8 +20,19 @@ public class PrintFibonacciSeries {
     }
 
     public static void main(String args[]) {
-        ArrayList<Integer> arr = new ArrayList();
-        fibonacci(6, arr);
+        findFibonacci(7);
+    }
+
+    public static void findFibonacci(int n) {
+        if (n < 2) {
+            System.out.print(n - 1 + " ");
+            return;
+        }
+
+        findFibonacci(n - 1);
+
+        int fb = n - 1 + n - 2;
+        System.out.print(fb + " ");
     }
 
 }
