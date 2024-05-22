@@ -39,7 +39,7 @@ public class SearchInSorted2DArray {
             if (matrix[mid][cMid] == target) {
                 return new int[]{mid, cMid};
             }
-            
+
             if (matrix[mid][cMid] < target) {
                 rStart = mid;
             } else {
