@@ -96,6 +96,7 @@
 #### 1. [Linear Search](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/LinearSearch.java)
 #### 2. [Binary Search](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch)
 ###### i. [Find ceil of a given number](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/CeilOfNumber.java)
+###### ii. [Find the target in the mountain array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/FindInMountainArray.java)
 
 ## Sorting Algorithms
 #### 1. [Selection Sort](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SortingAlgorithms/SelectionSort.java)
