@@ -23,7 +23,7 @@
 #### 20. [Check if two arrays are equal or not](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/CheckTwoArraysEqualOrNot.java)
 #### 21. [Find the missing number in an array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/MissingNumber.java)
 #### 22. [Remove duplicate elements from sorted array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/RemoveDuplicatesFromSortedArray.java)
-#### 23. [Find the index where target would be if it were inserted in order](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/SearchInsertPosition.java)
+#### 23. [Find the index where the target would be if it were inserted in order](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/SearchInsertPosition.java)
 #### 24. [Find Duplicate Number from an array in linear time](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/FindDuplicateNumberInLinearTime.java)
 #### 25. [Remove all occurrences of val in given array in-place](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Arrays/RemoveGivenElement.java)
 
@@ -98,6 +98,7 @@
 ###### i. [Find ceil of a given number](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/CeilOfNumber.java)
 ###### ii. [Find the target in the mountain array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/FindInMountainArray.java)
 ###### iii. [Find pivot in sorted rotated array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/FindPivotInSortedRotatedArray.java)
+###### iv. [Find the target in the mountain array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/FindInMountainArray.java)
 
 ## Sorting Algorithms
 #### 1. [Selection Sort](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SortingAlgorithms/SelectionSort.java)
