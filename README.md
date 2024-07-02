@@ -99,6 +99,7 @@
 ###### ii. [Find the target in the mountain array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/FindInMountainArray.java)
 ###### iii. [Find pivot in sorted rotated array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/FindPivotInSortedRotatedArray.java)
 ###### iv. [Find the target in the mountain array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/FindInMountainArray.java)
+###### v. [Order agnostic binary search](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SearchingAlgo/BinarySearch/OrderAgnosticBinarySearch.java)
 
 ## Sorting Algorithms
 #### 1. [Selection Sort](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/SortingAlgorithms/SelectionSort.java)
