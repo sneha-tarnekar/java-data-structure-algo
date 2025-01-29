@@ -13,7 +13,7 @@ package Pattern;
  *
 
  */
-public class Pattern5 {
+public class StarPattern5 {
 
     public static void main(String[] args) {
         patternOptimized(5);

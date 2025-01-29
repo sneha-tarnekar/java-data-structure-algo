@@ -2,14 +2,14 @@ package Pattern;
 
 /*
 
- * * * * *
-   * * * *
-     * * *
-       * *
          *
+       * *
+     * * *
+   * * * *
+ * * * * *
 
  */
-public class Pattern7 {
+public class StarPattern6 {
 
     public static void main(String[] args) {
         pattern(5);
@@ -17,10 +17,10 @@ public class Pattern7 {
 
     public static void pattern(int n) {
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
+            for (int j = i; j < n; j++) {
                 System.out.print("  ");
             }
-            for (int j = i; j < n; j++) {
+            for (int j = 0; j <= i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
