@@ -9,7 +9,7 @@ package Pattern;
  *   *   *   *   *
 
  */
-public class Pattern10 {
+public class StarPattern10 {
 
     public static void main(String[] args) {
         pattern(5);
