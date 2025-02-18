@@ -13,10 +13,10 @@ package Pattern;
     * 
 
  */
-public class Pattern28 {
+public class StarPattern14_Diamond {
 
     public static void main(String[] args) {
-        pattern(5);
+        pattern(8);
     }
 
     public static void pattern(int n) {

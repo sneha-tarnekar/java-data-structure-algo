@@ -3,14 +3,14 @@ package Pattern;
 
 /*
 
- *   *   *   *   *
-   *   *   *   *
-     *   *   *
-       *   *
-         *
+  * * * * * * * * * 
+    *           *   
+      *       *     
+        *   *       
+          *   
 
  */
-public class Pattern11 {
+public class StarPattern13 {
 
     public static void main(String[] args) {
         pattern(5);
@@ -21,8 +21,8 @@ public class Pattern11 {
             for (int j = 0; j <= i; j++) {
                 System.out.print("  ");
             }
-            for (int j = i * 2; j < n * 2 - 1; j++) {
-                if (j % 2 == 0) {
+            for (int j = i; j < n * 2 - 1; j++) {
+                if (j == i || j == n * 2 - 2 - i || i == 0) {
                     System.out.print("* ");
                 } else {
                     System.out.print("  ");

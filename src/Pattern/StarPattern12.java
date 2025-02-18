@@ -14,7 +14,7 @@ package Pattern;
  *   *   *   *   *
 
  */
-public class Pattern12 {
+public class StarPattern12 {
 
     public static void main(String[] args) {
         pattern(5);
