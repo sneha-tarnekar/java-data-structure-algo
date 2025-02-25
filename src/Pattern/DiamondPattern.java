@@ -1,5 +1,26 @@
 package Pattern;
 
+/*
+
+        *
+       * *
+      * * *
+     * * * *
+    * * * * *
+   * * * * * *
+  * * * * * * *
+ * * * * * * * *
+ * * * * * * * *
+  * * * * * * *
+   * * * * * *
+    * * * * *
+     * * * *
+      * * *
+       * *
+        *
+
+ */
+
 public class DiamondPattern {
 
     public static void printDiamond(int n) {
