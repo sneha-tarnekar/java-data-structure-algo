@@ -39,6 +39,7 @@
 #### 9. [Determine if the linked list has a cycle in it](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/LinkedList/LinkedListCycle.java)
 #### 10. [Delete all duplicates such that each element appears only once and Return the sorted linked list](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/LinkedList/RemoveDuplicatesFromSortedList.java)
 #### 11. [Check if a given number is a happy number or not using fast and slow pointer](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/LinkedList/CheckHappyNumber.java)
+#### 12. [Merge two sorted linked list](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/LinkedList/MergeTwoSortedLists.java)
 
 ## Stack
 #### 1. [Implement Stack using Array](https://github.com/sneha-tarnekar/java-data-structure-algo/blob/main/src/Stack/Stack.java)
