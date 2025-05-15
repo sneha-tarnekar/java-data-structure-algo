@@ -1,5 +1,6 @@
 package String;
 
+// Leetcode #58
 public class LengthOfLastWord {
 
     public static int lengthOfLastWord(String s) {
