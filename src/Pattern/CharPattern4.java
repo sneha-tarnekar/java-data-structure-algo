@@ -1,5 +1,12 @@
 package Pattern;
 
+/*
+D
+C D
+B C D
+A B C D
+ */
+
 public class CharPattern4 {
 
     public static void main(String[] args) {
