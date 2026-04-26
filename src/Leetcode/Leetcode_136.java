@@ -23,8 +23,16 @@ public class Leetcode_136 {
 
     public static void main(String[] args) {
         int[] input = {4,1,2,1,2};
-        int result = singleNumber(input);
+        int result = singleNumberOptimized(input);
         System.out.println("Output : "+ result);
+    }
+
+    public static int singleNumberOptimized(int[] nums) {
+        int sum = 0;
+        for(int i=0; i< nums.length; i++) {
+            sum = sum ^ nums[i];
+        }
+        return sum;
     }
 
 }
